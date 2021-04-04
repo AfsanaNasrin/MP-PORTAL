@@ -69,9 +69,9 @@ public class ProfileNActivities {
 	//	driver.findElement(By.xpath(XpathUtils.ProfileNactivities.প্রোফাইল_সংরক্ষণ_করুন)).click();
 		System.out.println("Profile Added Successfully!");
 		
-		*/
 		
-	//	এমপি বুক
+		
+	//	এমপি বুক(For the internet connection i did not get result of this 
 		
 		driver.navigate().to(URLUtils.ProfileNActivities.এমপি_বুক);
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -90,7 +90,31 @@ public class ProfileNActivities {
 		
 		System.out.println("Its not working successfully!");
 		
-	    	
+	    
+		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.navigate().to(URLUtils.ProfileNActivities.সাক্ষাৎ);
+		
+		driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_যুক্ত_করুন)).click();
+		driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_তারিখ)).sendKeys("30 April, 2021");
+		driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_সময়_হইতে)).sendKeys("04:51 PM");
+		driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_সময়_পর্যন্ত)).sendKeys("05:54 PM");
+		new Select(driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_নিবেদন))).selectByVisibleText("Abu Hassan Mahmud Ali");
+		driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_এর_বিষয়)).sendKeys("Testing Purpose-->For Lock Down!");
+		
+	//	driver.findElement(By.xpath(XpathUtils.ProfileNactivities.সাক্ষাৎ_সংরক্ষণ)).click();
+		
+		*/	
+		
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 	

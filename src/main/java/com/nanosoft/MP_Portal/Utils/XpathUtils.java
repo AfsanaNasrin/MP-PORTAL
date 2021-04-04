@@ -134,6 +134,16 @@ public class XpathUtils {
 		public static final String এমপিবুক_অনুসন্ধান="/html/body/div[1]/div[1]/section/div/div/div/div/div/form/div/div[6]/button";
 		
 		
+		public static final String সাক্ষাৎ_যুক্ত_করুন="/html/body/div[1]/div[1]/section/div/div/div/div/div[1]/a";
+		public static final String সাক্ষাৎ_তারিখ="/html/body/div[1]/div[1]/div[2]/div/div/form/div/div[1]/div[1]/div/div/input";
+		public static final String সাক্ষাৎ_সময়_হইতে="/html/body/div[1]/div[1]/div[2]/div/div/form/div/div[1]/div[2]/div/div/input";
+		public static final String সাক্ষাৎ_সময়_পর্যন্ত="/html/body/div[1]/div[1]/div[2]/div/div/form/div/div[1]/div[3]/div/div/input";
+		public static final String সাক্ষাৎ_নিবেদন="/html/body/div[1]/div[1]/div[2]/div/div/form/div/div[1]/div[4]/div/select";
+		public static final String সাক্ষাৎ_এর_বিষয়="/html/body/div[1]/div[1]/div[2]/div/div/form/div/div[1]/div[5]/div/div/div[3]/div[2]"; 
+		public static final String সাক্ষাৎ_সংরক্ষণ="/html/body/div[1]/div[1]/div[2]/div/div/form/div/div[2]/div/div/button[3]";
+		
+		
+		
 		
 	}
 	

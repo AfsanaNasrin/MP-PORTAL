@@ -26,11 +26,13 @@ public class URLUtils {
 		
 		public static final String প্রোফাইল="http://mpportal.nanoit.biz/profile-activities/profiles";
 		public static final String এমপি_বুক="http://mpportal.nanoit.biz/profile-activities/mpbooks";
+		public static final String সাক্ষাৎ ="http://mpportal.nanoit.biz/admin/profile-activities/appointments";
+		public static final String ব্যক্তিগত_সচিব="http://mpportal.nanoit.biz/admin/master-setup/personal_secretaries"; 
 	}
 	
 	public static class Notice {
 		
-;		public static final String bidhiURL="http://mpportal.nanoit.biz/admin/notice-management/parliament_rules";
+	    public static final String bidhiURL="http://mpportal.nanoit.biz/admin/notice-management/parliament_rules";
 		public static final String SthayiCommittee="http://mpportal.nanoit.biz/admin/master-setup/standing_committees/create";
 	}
 }
