@@ -1,0 +1,17 @@
+	<test name="MP_LoginTest">
+		<classes>
+			<class name="com.nanosoft.MP_Portal.Test.MP_Portal_Login" />
+		</classes>
+	</test>
+	
+	<test name="MasterSetup">
+		<classes>
+			<class name="com.nanosoft.MP_Portal.Test.MasterSetup" />
+		</classes>
+	</test>
+	
+	<test name="Notice">
+		<classes>
+			<class name="com.nanosoft.MP_Portal.Test.MP_Portal_Notice" />
+		</classes>
+	</test>

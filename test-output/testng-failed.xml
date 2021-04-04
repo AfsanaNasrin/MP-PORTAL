@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MP_Portal]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Profile_N_Activities(failed)">
+    <classes>
+      <class name="com.nanosoft.MP_Portal.Test.ProfileNActivities">
+        <methods>
+          <include name="profileNactivitiesBanglaVersion"/>
+        </methods>
+      </class> <!-- com.nanosoft.MP_Portal.Test.ProfileNActivities -->
+    </classes>
+  </test> <!-- Profile_N_Activities(failed) -->
+</suite> <!-- Failed suite [MP_Portal] -->
